@@ -1,0 +1,11 @@
+com/huawei/cse/democustomer/utils/JsonResponse.class
+com/huawei/cse/democustomer/constant/Response.class
+com/huawei/cse/democustomer/config/MybatisConfig$1.class
+com/huawei/cse/democustomer/controller/CustomerController.class
+com/huawei/cse/democustomer/DemoCustomerApplication.class
+com/huawei/cse/democustomer/mapper/CustomerMapper.class
+com/huawei/cse/democustomer/entity/Resource.class
+com/huawei/cse/democustomer/service/CustomerService.class
+com/huawei/cse/democustomer/entity/Customer.class
+com/huawei/cse/democustomer/config/MybatisConfig.class
+com/huawei/cse/democustomer/entity/Resource$Status.class

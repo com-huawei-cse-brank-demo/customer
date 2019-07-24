@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a89f4aae-4b89-4265-9bcd-4d7f2eb8bde7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/java/cn/brank/chuyiting/chuyitingmsp/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/java/cn/brank/chuyiting/chuyitingmsp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/java/cn/brank/chuyiting/chuyitingmsp/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/java/cn/brank/chuyiting/chuyitingmsp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/resources/lib/foundation-auth-2.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chuyiting/chuyiting-msp/src/main/resources/microservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/GenerateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/autoconfigure/AccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/autoconfigure/EncryptTypeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/autoconfigure/GroupChannelConnectionsPropertyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/autoconfigure/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/autoconfigure/Web3jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/constants/ConnectConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/constants/GasConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/controller/FiscoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/controller/SpvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/java/com/example/demo/service/GeneratorContractJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/0x98333491efac02f8ce109b0c499074d47e7779a6.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/0xcdcce60801c0a2e6bb534322c32ae528b9dec8d2.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/contract/HelloWorld.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/contract/Spv.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/lib/foundation-auth-2.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/microservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/solidity/HelloWorld.abi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/solidity/HelloWorld.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/solidity/spv.abi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/main/resources/solidity/spv.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/java/com/example/demo/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/java/com/example/demo/ContractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/java/com/example/demo/SolidityFunctionWrapperGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/java/com/example/demo/Web3jApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/contract/HelloWorld.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/contract/Spv.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/solidity/HelloWorld.abi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/solidity/HelloWorld.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/solidity/spv.abi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/demo/src/test/resources/solidity/spv.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/GenerateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/autoconfigure/AccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/autoconfigure/EncryptTypeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/autoconfigure/GroupChannelConnectionsPropertyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/autoconfigure/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/autoconfigure/Web3jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/constants/ConnectConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/constants/GasConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/controller/FiscoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/controller/SpvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/java/com/chuyiting/service/GeneratorContractJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/0x98333491efac02f8ce109b0c499074d47e7779a6.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/0xcdcce60801c0a2e6bb534322c32ae528b9dec8d2.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/contract/Spv.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/lib/foundation-auth-2.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/microservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/main/resources/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/java/com/chuyiting/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/java/com/chuyiting/ContractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/java/com/chuyiting/SolidityFunctionWrapperGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/java/com/chuyiting/Web3jApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/resources/contract/Spv.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/resources/solidity/spv.abi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../fisco/fisco-server/src/test/resources/solidity/spv.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../huawei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../201706/xsyu-latex 2" beforeDir="false" afterPath="$PROJECT_DIR$/../../201706/xsyu-latex 2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dionysus" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dionysus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hermes" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hermes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jhipster/FullStackDevelopmentwithJHipster_Code/Chapter11/jhipster-console" beforeDir="false" afterPath="$PROJECT_DIR$/../../Jhipster/FullStackDevelopmentwithJHipster_Code/Chapter11/jhipster-console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/Earth" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/Earth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/Galenus" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/Galenus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/Ziggs" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/Ziggs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/ssa chaincode" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/ssa chaincode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/t/源码/SSA粉丝后援会管理chaincode/Ziggs" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/t/源码/SSA粉丝后援会管理chaincode/Ziggs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/test/Ziggs0.2" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/test/Ziggs0.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/upload/test" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/upload/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../huasai/v0.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../huasai/v0.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/spv" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/spv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../newEarth" beforeDir="false" afterPath="$PROJECT_DIR$/../../newEarth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/java/com/huawei/brank/msp/MspApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/java/com/huawei/brank/msp/MspApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/java/com/huawei/brank/msp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/java/com/huawei/brank/msp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/main/resources/microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/test/java/com/brank/msp/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/0611/user-service/src/test/java/com/brank/msp/UserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/servicecomb-java-chassis" beforeDir="false" afterPath="$PROJECT_DIR$/../../serviceComb/servicecomb-java-chassis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/java/com/service/testproject/TestprojectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/java/com/service/testproject/controller/TestprojectDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/java/com/service/testproject/controller/TestprojectImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/resources/META-INF/spring/cse.testproject.bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/main/resources/microservice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serviceComb/testProject/src/test/java/com/service/testproject/controller/TestTestproject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tempTest/src/main/resources/.h2.server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../tempTest/src/main/resources/.h2.server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tempTest/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tempTest/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tempTest/src/main/webapp/app/entities/entity.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../tempTest/src/main/webapp/app/entities/entity.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tempTest/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../tempTest/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tempTest/src/main/webapp/i18n/zh-cn/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tempTest/src/main/webapp/i18n/zh-cn/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/contract_SPV" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/contract_SPV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../twDemo/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/main/java/com/tw/example/demo4/Demo4Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../twDemo/demo/src/main/java/com/tw/example/demo4/Demo4Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/main/java/com/tw/example/service/gameService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/main/java/com/tw/example/service/gameServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/test/java/com/tw/example/demo4/Demo4ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../twDemo/demo/src/test/java/com/tw/example/demo4/Demo4ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../twDemo/demo/src/test/java/com/tw/example/service/gameServiceImplementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue/my-project/electron-vue-music" beforeDir="false" afterPath="$PROJECT_DIR$/../../vue/my-project/electron-vue-music" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue/voteapp" beforeDir="false" afterPath="$PROJECT_DIR$/../../vue/voteapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../区块链ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../实习/面试准备.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../小工具/12306" beforeDir="false" afterPath="$PROJECT_DIR$/../../小工具/12306" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../开题/刘阳第十版.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../../开题/刘阳第十版.pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../毕设项目/react-native-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../../毕设项目/react-native-samples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/DappJupiter" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/DappJupiter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/Earth" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/Earth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/GZHCommittee_Contract" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/GZHCommittee_Contract" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/Jupiter" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/Jupiter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/Neptune" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/Neptune" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/Venus" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/Venus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/contract_SPV" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/contract_SPV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/prod/DappJupiter" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/prod/DappJupiter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../沐新项目/test/Saturn-IOS" beforeDir="false" afterPath="$PROJECT_DIR$/../../沐新项目/test/Saturn-IOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../燧火集/Ares" beforeDir="false" afterPath="$PROJECT_DIR$/../../燧火集/Ares" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../燧火集/dev/Dionysus" beforeDir="false" afterPath="$PROJECT_DIR$/../../燧火集/dev/Dionysus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../燧火集/nxk/Ares" beforeDir="false" afterPath="$PROJECT_DIR$/../../燧火集/nxk/Ares" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../燧火集/nxk/intellectual_property (2)" beforeDir="false" afterPath="$PROJECT_DIR$/../../燧火集/nxk/intellectual_property (2)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../艺术链/team1_artchain_尹杰_刘阳_谢远辉/IPFS-Ethereum-Image" beforeDir="false" afterPath="$PROJECT_DIR$/../../艺术链/team1_artchain_尹杰_刘阳_谢远辉/IPFS-Ethereum-Image" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../黑客马拉松/team1_artchain_尹杰_刘阳_谢远辉/IPFS-Ethereum-Image" beforeDir="false" afterPath="$PROJECT_DIR$/../../黑客马拉松/team1_artchain_尹杰_刘阳_谢远辉/IPFS-Ethereum-Image" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1409762137">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="9" />
+          <entry key="xml" value="1" />
+          <entry key="yaml" value="7" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="438" />
+          <entry key="xml" value="6" />
+          <entry key="yaml" value="80" />
+          <entry key="yml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="438" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="92" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2126834410">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="yaml" value="2" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1000" />
+          <entry key="xml" value="5" />
+          <entry key="yaml" value="32" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1000" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="33" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/microservice.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="45" selection-start-line="45" selection-end-line="68" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity/Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/mapper/CustomerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/utils/JsonResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/service/CustomerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1174">
+              <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setMap</find>
+      <find>setMapUnderscoreToCamelCase</find>
+      <find>statusCode</find>
+      <find>statusCodeValue</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../fisco/demo/spring-boot-starter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fisco/spring-boot-starter-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/DemoCustomerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/config/mybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/utils/JsonResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/constant/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/microservice.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="23" />
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="democustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-customer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563968462394" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.07309941" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huawei.cse.democustomer.constant" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huawei.cse.democustomer.DemoCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a89f4aae-4b89-4265-9bcd-4d7f2eb8bde7" name="Default Changelist" comment="" />
+      <created>1563867077673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563867077673</updated>
+      <workItem from="1563867079086" duration="7927000" />
+      <workItem from="1563881201911" duration="22358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30285000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="26" width="1440" height="832" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914925" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="102" column="44" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t_demo_customer_l50001838.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/DemoCustomerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/constant/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/utils/JsonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/entity/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1174">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/cse/democustomer/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/microservice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="45" selection-start-line="45" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+server:
+  port: 7072
+
+spring:
+  datasource:
+    username: root
+    password: wsly1994
+    url: jdbc:mysql://localhost:3306/paasdemo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+#    url: jdbc:mysql://114.115.158.243:23333/paasdemo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.huawei.cse.democustomer.entity
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
